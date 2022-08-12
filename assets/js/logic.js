@@ -145,7 +145,6 @@ function saveHighscore(event) {
     // get saved scores from localstorage, or if not any, set to empty array
     var highscores =
       JSON.parse(window.localStorage.getItem("highscores")) || [];
-
     // format new score object for current user
     var newScore = {
       score: time,
